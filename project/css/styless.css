@@ -1,0 +1,174 @@
+@font-face {
+	font-family: 'Conv_gilroy-bold';
+	src: url('../FONTS/gilroy-bold.eot');
+	src: local('☺'), url('../FONTS/gilroy-bold.woff') format('woff'), url('../FONTS/gilroy-bold.ttf') format('truetype'), url('../FONTS/gilroy-bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Conv_gilroy-bold';
+	font-weight: normal;
+	
+	
+}
+.header{
+	display: flex;
+	justify-content: center;
+	width: auto;
+	top: 0px;
+	color:#828282;
+	
+
+}
+.wrapper{
+	display: flex;
+	width: 940px;
+	justify-content: space-between;
+	background-color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom: 2px solid #828282;
+	color:#626262;
+	
+}
+a{
+	color:#626262;
+	text-decoration: none;
+}
+
+.preview-wrapper{
+	display: flex;
+	width: 940px;
+	justify-content: space-between;
+	height: 150px;
+	align-items: center;
+	
+	
+}
+.preview{
+	display:flex;
+	width:auto;
+	justify-content: center;
+}
+.text3{
+	transform: rotate(-90deg);
+	transform-origin: right top;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.name{
+	font-family:'Conv_gilroy-bold';
+	font-size:3em;
+	
+}
+.tex2{
+	
+	text-align: center;
+	font-size:1em;
+}
+.foto-wrapper{
+	display: flex;
+	width: 940px;
+}
+.foto{
+		display: flex;
+		width: auto;
+		justify-content: center;
+		padding-bottom: 4em;
+  }
+
+.section-inner-me{
+	 text-align: center;
+	 font-size: 24px;
+	 padding-top: 2em;
+	 background-color: #F6F6F6;
+	 padding-bottom: 2em;
+	 
+}
+p{
+	padding-top: 1em;
+}
+
+.section-inner-skills{
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.prog{
+	text-align: center;
+}
+.icon-wrap{
+	display: flex;
+    justify-content: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.icon-wrapper{
+	display: flex;
+	width: 940px;
+	justify-content: space-between;
+}
+.section-inner-portfolio{
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background-color: #F6F6F6;
+}
+.pic-wrap{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 2em;
+	background-color: #F6F6F6;
+	text-align: center;
+}
+.pic-wrapper{
+	display: flex;
+	flex-direction: column;
+	width: 940px;
+}	
+figcaption{
+	padding-top: 2em;
+	padding-bottom: 3em;
+}
+.figcap{
+	text-decoration:underline;
+	color: black;	
+}
+.section-inner-contact{
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.button{
+	text-align: center;
+	font-family:'Conv_gilroy-bold';
+	padding-bottom: 3em;
+	justify-content: center;
+}
+button{
+	background-color: black;
+	color:white;
+	padding: 10px  20px 10px 20px;
+	border: none;
+	border-radius: 30px;
+}
+.pressbutton{
+	color: white;
+}
+.icons-wrapper{
+	display: flex;
+	justify-content: center;
+	padding-top: 1em;
+	padding-bottom: 1.5em;
+}
+.endfooter{
+	text-align: center;
+	padding-bottom: 3em;
+	font-size: 14px;
+	color: #828282;
+}
